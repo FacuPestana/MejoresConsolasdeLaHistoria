@@ -27,12 +27,13 @@ h4{
     
 }
 
-#body, #Opinion {
+#body{
     border-radius: 50px;
 }
 #Opinion{
     background-color: rgb(217, 255, 0);
- 
+    border: none;
+    border-radius: 50px;
 }
 
 #Inicio{
@@ -47,7 +48,7 @@ h4{
     margin: 0px;
 }
 
-#Play3, #nintendobtn, #ps4btn, #ps5btn, #btnxbox{
+button,#Play3, #nintendobtn, #ps4btn, #ps5btn, #btnxbox{
     background-color: rgb(217, 255, 0);
     border-radius: 50px;
     border: none;
