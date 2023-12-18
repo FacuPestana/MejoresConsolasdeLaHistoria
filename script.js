@@ -1,3 +1,8 @@
+alert('Bienvenido a esta pagina sobre las "Mejores Consolas De La Historia"')
+
+let pregunta = prompt('¿Cual es tu consola Favorita?')
+alert('Genial, ahora te presento mi top')
+
 //Play 3
 let img1play3 = document.querySelector('#play3img1')
 let boton = document.querySelector('#Play3')
@@ -82,9 +87,3 @@ boton5.onclick = function(){
     
     }
 }
-
-
-alert('Bienvenido a esta pagina sobre las "Mejores Consolas De La Historia"')
-
-let pregunta = prompt('¿Cual es tu consola Favorita?')
-alert('Genial, ahora te presento mi top')
