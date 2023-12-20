@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Josefin+Sans:wght@100&family=Pacifico&display=swap');
-
+ /*Comentaio en CSS */
 body{
     background-color:burlywood;
     margin-left: 5px;
@@ -21,19 +21,17 @@ h4{
     margin-left: 5px;
 }
 
-#Ranking, #Inicio, #Sugerencia{
+#Ranking, #Inicio{
     border-radius: 25%;
     background-color: rgb(217, 255, 0);
-    
+
+
 }
 
-#body{
-    border-radius: 50px;
-}
-#Opinion{
-    background-color: rgb(217, 255, 0);
+#Sugerencias{
     border: none;
-    border-radius: 50px;
+    background-color: rgb(217, 255, 0);
+    white-space: 2000px
 }
 
 #Inicio{
@@ -48,8 +46,9 @@ h4{
     margin: 0px;
 }
 
-button,#Play3, #nintendobtn, #ps4btn, #ps5btn, #btnxbox{
+#Play3, #nintendobtn, #ps4btn, #ps5btn, #btnxbox{
     background-color: rgb(217, 255, 0);
     border-radius: 50px;
-    border: none;
+    border:none;
 }
+

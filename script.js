@@ -1,9 +1,5 @@
-alert('Bienvenido a esta pagina sobre las "Mejores Consolas De La Historia"')
-
-let pregunta = prompt('¿Cual es tu consola Favorita?')
-alert('Genial, ahora te presento mi top')
-
 //Play 3
+//Comentario en JavaScript
 let img1play3 = document.querySelector('#play3img1')
 let boton = document.querySelector('#Play3')
 let imagenCambiada = false;
@@ -17,15 +13,14 @@ boton.onclick = function(){
     imagenCambiada = false
     
     }
+
 }
 
 
-//Nintendo
+
 let img1nintendo = document.querySelector('#nintendoimg1')
 let boton2 = document.querySelector('#nintendobtn')
-
 let imagenCambiada2 = false;
-
 boton2.onclick = function(){
     if (imagenCambiada2 == false){
         img1nintendo.src = 'https://th.bing.com/th/id/OIP.h6mUGY6quvM1iIHIXqyuVwHaEO?w=302&h=180&c=7&r=0&o=5&pid=1.7'
@@ -36,12 +31,8 @@ boton2.onclick = function(){
     imagenCambiada2 = false
     
     }
-
 }
 
-
-
-//Play 4
 let img1ps4 = document.querySelector('#play4img1')
 let boton3 = document.querySelector('#ps4btn')
 let imagenCambiada3 = false;
@@ -56,7 +47,7 @@ boton3.onclick = function(){
     
     }
 }
-//Ps5
+
 
 let img1ps5 = document.querySelector('#PS5img1')
 let boton4 = document.querySelector('#ps5btn')
@@ -83,6 +74,7 @@ boton5.onclick = function(){
         imagenCambiada5 = true
     } else {
         img1xbox.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7xpD3SGpt1C25e8u_XgRgNnjiHGpRRoJAgxXmxr2NABHUcs_5ZX3u_eStcGPz2JKaf7E&usqp=CAU'
+   
     imagenCambiada5 = false
     
     }
